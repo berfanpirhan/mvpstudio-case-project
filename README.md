@@ -15,5 +15,5 @@ npx expo start
 
 6. Alternatively, the app can also be run on emulators through the following commands:
 npx expo start --android
-# or
+OR
 npx expo start --ios
