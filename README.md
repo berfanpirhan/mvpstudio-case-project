@@ -1,1 +1,0 @@
-# mvpstudio-case-project

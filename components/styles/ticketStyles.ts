@@ -1,0 +1,161 @@
+import { StyleSheet, Dimensions, Platform, StatusBar } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+      justifyContent: "center",
+      alignItems: "center",
+      marginBottom: "5%",
+      marginTop: "0%",
+      width: "100%",
+    },
+    ticket: {
+      width: 350,
+      padding: 18,
+      backgroundColor: "#fff",
+      borderRadius: 14,
+      borderWidth: 0.5,
+      borderColor: "#E5E7EB",
+      marginTop: "2%",
+    },
+    header: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: 15,
+    },
+    airlineInfo: {
+      flexDirection: "row",
+      alignItems: "center",
+    },
+    airlineText: {
+      fontSize: 14,
+      color: "#6B7280",
+      marginLeft: 5,
+      fontWeight: "600",
+      fontFamily: "Roboto-Medium",
+    },
+    dot: {
+      marginHorizontal: 3,
+      fontSize: 14,
+      color: "#6B7280",
+    },
+    airlineName: {
+      fontSize: 14,
+      color: "#6B7280",
+      fontWeight: "600",
+    },
+    flightTimeContainer: {
+      backgroundColor: "#FED7AA",
+      paddingVertical: 4,
+      paddingHorizontal: 8,
+      borderRadius: 5,
+      borderWidth: 1,
+      borderColor: "#C2410C",
+      marginLeft: 10,
+    },
+    flightTime: {
+      fontSize: 12,
+      color: "#C2410C",
+      fontFamily: "Roboto-Regular",
+    },
+    leftEllipseMask: {
+      position: "absolute",
+      left: -30,
+      top: "55%",
+      width: 40,
+      height: 20,
+      borderRadius: 20,
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: "#fff",
+    },
+    rightEllipseMask: {
+      position: "absolute",
+      right: -30,
+      top: "55%",
+      width: 40,
+      height: 20,
+      borderRadius: 20,
+      alignItems: "center",
+      justifyContent: "center",
+      backgroundColor: "#fff",
+    },
+    ellipse: {
+      width: 40,
+      height: 20,
+      borderRadius: 20,
+      borderWidth: 0.5,
+      borderColor: "#E5E7EB",
+      position: "absolute",
+    },
+    bottomSection: {
+      marginTop: 5,
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "space-between",
+    },
+    takeoffInfo: {
+      alignItems: "center",
+      flex: 1,
+    },
+    takeoffRow: {
+      flexDirection: "row",
+      alignItems: "center",
+    },
+    takeoffText: {
+      marginLeft: 0,
+      fontSize: 14,
+      color: "#6B7280",
+    },
+    cityName: {
+      fontSize: 20,
+      color: "#000",
+      fontWeight: "bold",
+      marginTop: 10,
+      textAlign: "left",
+    },
+    takeoffTime: {
+      fontSize: 14,
+      color: "#374151",
+      marginTop: 10,
+      textAlign: "left",
+      fontFamily: "Roboto-Medium",
+    },
+    planeDestinationIcon: {
+      alignSelf: "center",
+      width: 40,
+      height: 40,
+      marginHorizontal: 15,
+    },
+    leftAligned: {
+      alignItems: "flex-start",
+    },
+    rightAligned: {
+      alignItems: "flex-end",
+    },
+    modal: {
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    modalContent: {
+      borderRadius: 14,
+      padding: 18,
+      width: 350,
+      alignItems: "center",
+    },
+    removeButton: {
+      marginTop: 15,
+      backgroundColor: "#FEE2E2",
+      paddingVertical: 12,
+      width: "110%",
+      borderRadius: 10,
+      alignItems: "center",
+    },
+    removeButtonText: {
+      color: "#7F1D1D",
+      fontSize: 16,
+      fontWeight: "bold",
+    },
+  });
+  
+  export default styles;
